@@ -12,6 +12,6 @@ export const auth = defineAuth({
     preSignUp: defineFunction({ entry: '../functions/pre-sign-up-handler.ts' }),
     createAuthChallenge: defineFunction({ entry: '../functions/create-auth-challenge-handler.ts' }),
     defineAuthChallenge: defineFunction({ entry: '../functions/define-auth-challenge-handler.ts' }),
-    verifyAuthChallengeResponse: defineFunction({ entry: '../functions/verify-auth-challenge-response-handler.ts' })
+    verifyAuthChallengeResponse: defineFunction({ entry: '../functions/verify-auth-challenge-handler.ts' })
   }
 });
