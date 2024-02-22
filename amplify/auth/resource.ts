@@ -15,9 +15,6 @@ export const auth = defineAuth({
         'MY_ENV_VAR': 'my-env-value'
       }
     },
-    ),
-    createAuthChallenge: defineFunction({ entry: '../functions/create-auth-challenge-handler.ts' }),
-    defineAuthChallenge: defineFunction({ entry: '../functions/define-auth-challenge-handler.ts' }),
-    verifyAuthChallengeResponse: defineFunction({ entry: '../functions/verify-auth-challenge-handler.ts' })
+    )
   }
 });
